@@ -1,0 +1,216 @@
+{
+  "users": [
+    {
+      "name": "Carlos Rodriguez",
+      "email": "dd@gmail.com",
+      "password": "dddd",
+      "plan": "Anual",
+      "id": 1
+    },
+    {
+      "name": "Fernando Gago",
+      "email": "xahid43956@uforks.com",
+      "password": "123",
+      "plan": "Anual",
+      "id": 2
+    },
+    {
+      "name": "Test",
+      "email": "test@gmail.com",
+      "password": "123",
+      "plan": "Mensual",
+      "id": 3
+    },
+    {
+      "name": "Eric",
+      "email": "testo@gmail.com",
+      "password": "ddd",
+      "plan": "Free",
+      "id": 4
+    },
+    {
+      "name": "Laura Palmer",
+      "email": "laura@twinpeaks.com",
+      "password": "firewalk",
+      "plan": "Anual",
+      "id": 5
+    },
+    {
+      "name": "Dale Cooper",
+      "email": "coop@fbi.gov",
+      "password": "coffee",
+      "plan": "Mensual",
+      "id": 6
+    }
+  ],
+  "reservations": [
+    {
+      "userId": 2,
+      "reservationName": "Fernando Gago",
+      "reservationEmail": "xahid43956@uforks.com",
+      "imageUrl": "https://i.ibb.co/3mQ08Tyb/nissan3.jpg",
+      "brand": "nissan",
+      "model": "Kicks Play",
+      "licensePlate": "2A4-GH2",
+      "inspectionDateTime": "2025-05-16T16:00:00.000Z",
+      "price": "1000",
+      "status": "accepted",
+      "id": 1
+    },
+    {
+      "userId": 5,
+      "reservationName": "Laura Palmer",
+      "reservationEmail": "laura@twinpeaks.com",
+      "imageUrl": "https://example.com/audi_a4.jpg",
+      "brand": "Audi",
+      "model": "A4",
+      "licensePlate": "AUD-123",
+      "inspectionDateTime": "2025-06-10T10:00:00.000Z",
+      "price": "1500",
+      "status": "pending",
+      "id": 2
+    },
+    {
+      "userId": 6,
+      "reservationName": "Dale Cooper",
+      "reservationEmail": "coop@fbi.gov",
+      "imageUrl": "https://example.com/mercedes_c_class.jpg",
+      "brand": "Mercedes-Benz",
+      "model": "C-Class",
+      "licensePlate": "MER-456",
+      "inspectionDateTime": "2025-06-15T14:30:00.000Z",
+      "price": "1800",
+      "status": "pending",
+      "id": 3
+    },
+    {
+      "userId": 7,
+      "reservationName": "Audrey Horne",
+      "reservationEmail": "audrey@oneeyedjacks.com",
+      "imageUrl": "https://example.com/bmw_3_series.jpg",
+      "brand": "BMW",
+      "model": "3 Series",
+      "licensePlate": "BMW-789",
+      "inspectionDateTime": "2025-07-01T09:00:00.000Z",
+      "price": "1600",
+      "status": "pending",
+      "id": 4
+    },
+    {
+      "userId": 3,
+      "reservationName": "Test",
+      "reservationEmail": "test@gmail.com",
+      "imageUrl": "https://example.com/vw_golf.jpg",
+      "brand": "Volkswagen",
+      "model": "Golf",
+      "licensePlate": "VW-012",
+      "inspectionDateTime": "2025-07-20T11:00:00.000Z",
+      "price": "1200",
+      "status": "pending",
+      "id": 5
+    },
+    {
+      "userId": 5,
+      "reservationName": "Laura Palmer",
+      "reservationEmail": "laura@twinpeaks.com",
+      "imageUrl": "https://i.ibb.co/Rpq1xK39/kia-niro-2025.jpg",
+      "brand": "Kia",
+      "model": "Niro",
+      "licensePlate": "23A-87J",
+      "inspectionDateTime": "2025-06-10T16:00:00.000Z",
+      "price": "2200",
+      "status": "accepted",
+      "id": 6
+    },
+    {
+      "userId": 6,
+      "reservationName": "Dale Cooper",
+      "reservationEmail": "coop@fbi.gov",
+      "imageUrl": "https://i.ibb.co/20ZLrVQm/Mercedes-Clase-C.webp",
+      "brand": "Mercedes-Benz",
+      "model": "Clase C",
+      "licensePlate": "H2F-67G",
+      "inspectionDateTime": "2025-07-10T16:00:00.000Z",
+      "price": "2500",
+      "status": "accepted",
+      "id": 7
+    },
+    {
+      "userId": 2,
+      "reservationName": "Fernando Gago",
+      "reservationEmail": "xahid43956@uforks.com",
+      "imageUrl": "https://i.ibb.co/LzSwxdXR/2025-audi-a5.jpg",
+      "brand": "Audi",
+      "model": "A5",
+      "licensePlate": "JJ8-GH7",
+      "inspectionDateTime": "2025-07-14T20:00:00.000Z",
+      "price": "2300",
+      "status": "accepted",
+      "id": 8
+    },
+    {
+      "userId": 3,
+      "reservationName": "Test",
+      "reservationEmail": "test@gmail.com",
+      "imageUrl": "https://i.ibb.co/tpbCGrLr/Ford-Mustang-2025.jpg",
+      "brand": "Ford",
+      "model": "Mustang GT",
+      "licensePlate": "23B-98F",
+      "inspectionDateTime": "2025-07-15T20:00:00.000Z",
+      "price": "1900",
+      "status": "accepted",
+      "id": 9
+    },
+    {
+      "userId": 6,
+      "reservationName": "Dale Cooper",
+      "reservationEmail": "coop@fbi.gov",
+      "imageUrl": "https://i.ibb.co/RGXVgTYW/BMW4-SERIE2021.jpg",
+      "brand": "BMW",
+      "model": "BMW 4 SERIE",
+      "licensePlate": "HJ2-OP8",
+      "inspectionDateTime": "2025-06-16T22:00:00.000Z",
+      "price": "2700",
+      "status": "accepted",
+      "id": 10
+    },
+    {
+      "userId": 1,
+      "reservationName": "Carlos Rodriguez",
+      "reservationEmail": "dd@gmail.com",
+      "imageUrl": "https://i.ibb.co/SX5YnY1c/Kia-Sportage-blanca.png",
+      "brand": "Kia",
+      "model": "Sportage",
+      "licensePlate": "KG3-R34",
+      "inspectionDateTime": "2025-06-18T22:00:00.000Z",
+      "price": "2450",
+      "status": "accepted",
+      "id": 11
+    }
+  ],
+  "admin_user": [
+    {
+      "id": 1,
+      "name": "admin",
+      "email": "adminEMAIL@gmail.com",
+      "password": "admin"
+    }
+  ],
+  "cars": [
+    {
+      "title": "tOYOTA",
+      "owner": "Fernando Gago",
+      "ownerEmail": "xahid43956@uforks.com",
+      "year": 2022,
+      "brand": "nissan",
+      "model": "Kicks Play",
+      "description": "veraniooooooooooooo",
+      "pdfCertification": "",
+      "imageUrl": "https://i.ibb.co/3mQ08Tyb/nissan3.jpg",
+      "price": "1000",
+      "licensePlate": "2A4-GH2",
+      "originalReservationId": 1,
+      "id": 1
+    }
+  ]
+}
